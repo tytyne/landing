@@ -1,0 +1,168 @@
+body {
+    font-family: 'Work Sans', sans-Serif;
+  }
+  /*logo*/
+  .logo{
+    
+    width:150px;
+    height:auto;
+    color:red;
+    font-size:40px;
+    font-style:italic;
+    float:left;
+  }
+      
+  /*navigation menus*/
+  nav {
+    padding-top:0px;
+      max-width: 960px;
+      margin: 0 auto;
+      /*padding: 10px 0;*/
+      margin-right: 0%;
+      box-sizing: border-box;
+      
+  }
+  
+  nav>ul {
+      text-align: right;
+  }
+  
+  nav>ul>li {
+      display: inline-block;
+  }
+  
+  nav ul li a {
+    box-sizing:border-box;
+    margin-left: 9px;
+      margin-right:9px;
+      text-transform: uppercase;
+      text-decoration: none;
+      display: block;
+      color:black;
+      font-family:poppins;
+      font-size:normal;
+      Font-weight:500;
+      position:relative;
+      
+      
+      
+      
+      
+      
+      
+  }
+  /*what happens when we click on navigation menus*/
+  nav>ul>li>a:hover {
+      background:white;
+      color:red;
+      text-decoration:underline;
+  }
+  /*words over background image*/
+  .backgroundd {
+      position: relative;
+      text-align: center;
+      color: white;
+  }
+  /* Centering text over background image */
+  .centered{
+      position: absolute;
+      top: 50%;
+      left: 60%;
+      transform: translate(-50%, -50%);
+      background-color:silver;
+  }
+  
+  
+  #hell{
+    border:1px solid black;
+    background-clip:border-box;
+    text-align:center;
+    color:red;
+    width:300px;
+     margin-left: 300px;
+      padding:10px;
+      border-radius:1px;
+    
+    
+  }
+  #hell:hover{
+    Color:black;
+    background-color:skyblue;
+    
+    
+  }
+  
+  
+  
+    #containerp{
+       
+       display: flex;
+    background-color:#fcfcfc;
+    justify-content:center;
+    
+  }
+     #containerp>div
+     {
+       
+    background-color:white;
+   
+    
+    text-align:center;
+    margin: 10px;
+    padding: 20px;
+    
+    
+  }
+  #who:hover{
+    background-color:silver;
+    color:red;
+  }
+  
+  
+  
+  
+  
+     .background{
+       
+       background-color:skyblue;
+       text-align:center;
+       box-sizing: border-box;
+      padding-left: 15px;
+      padding-right: 15px;
+      padding:60px;
+      width: 100%;
+     }
+     .background>p{
+       color:white;
+       font-size:30px;
+     }
+     
+  
+   #benefits{
+       
+       display: flex;
+    background-color:Blue;
+    justify-content:center;
+    
+  }
+     #benefits>div
+     {
+       
+    background-color:white;
+   
+    font-size:20px;
+    padding:10px;
+     }
+     .help>h2{
+       color:red;
+       
+     }
+     .help>p
+     {
+       margin-top:5px;
+       text-align:center;
+       font-size:16px;
+       margin-bottom:70px;
+     }
+     
+     
