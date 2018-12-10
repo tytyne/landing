@@ -1,30 +1,47 @@
 body {
     font-family: 'Work Sans', sans-Serif;
+padding-left:50px;
+padding-right:50px;
+
   }
+
+#header-info{
+  padding-top:0px;
+  font-size: 18px;
+    font-weight: normal;
+    line-height: 24px;
+    font-family: Rokkitt;
+float:right;
+margin-top: -80px
+}
+
   /*logo*/
-  .logo{
-    
-    width:150px;
-    height:auto;
-    color:red;
+  #logo{
+    /* display: inline; */
+    /* width:150px; */
+    /* height:auto; */
+    /* color:red; */
     font-size:40px;
     font-style:italic;
-    float:left;
+    /* float:left; */
   }
+
       
   /*navigation menus*/
   nav {
-    padding-top:0px;
-      max-width: 960px;
+    padding-top:10px;
+      /* max-width: 960px; */
       margin: 0 auto;
       /*padding: 10px 0;*/
       margin-right: 0%;
       box-sizing: border-box;
+      background-color:#f47142;
+      height: 80px;
       
   }
   
   nav>ul {
-      text-align: right;
+      text-align: left;
   }
   
   nav>ul>li {
@@ -44,11 +61,7 @@ body {
       Font-weight:500;
       position:relative;
       
-      
-      
-      
-      
-      
+    
       
   }
   /*what happens when we click on navigation menus*/
@@ -57,112 +70,127 @@ body {
       color:red;
       text-decoration:underline;
   }
+
+  nav input[type=text] {
+    width: 200px;
+    height: 29px;
+    background:white;
+    border: none;
+    padding: 1px 0px 0px 7px;
+    color: #343434;
+    float:right;
+    margin-top:15px;
+  }
+
+
+
   /*words over background image*/
   .backgroundd {
       position: relative;
       text-align: center;
       color: white;
   }
-  /* Centering text over background image */
-  .centered{
-      position: absolute;
-      top: 50%;
-      left: 60%;
-      transform: translate(-50%, -50%);
-      background-color:silver;
+  /* text over background image */
+  .bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+    background-color:black;
+    padding: 10px;
+    margin: 0;
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
+    color: #fafafa;
+    font-size: 13px;
+    line-height: 18px;
+    width: 305px;
+    text-align: justify;
+    height: auto;
+    border-radius: 10px;
+    overflow: hidden;
+
+
+
+
   }
-  
-  
-  #hell{
-    border:1px solid black;
-    background-clip:border-box;
-    text-align:center;
-    color:red;
-    width:300px;
-     margin-left: 300px;
-      padding:10px;
-      border-radius:1px;
-    
-    
+  #about{
+
+    font-size:30px;
+    text-align: center;
+    color: #12222f;
+    line-height: 45px;
+    font-weight: normal;
+    padding-left:40px;
+    margin-right:40px;
+
   }
-  #hell:hover{
-    Color:black;
-    background-color:skyblue;
-    
-    
-  }
-  
-  
-  
-    #containerp{
-       
-       display: flex;
-    background-color:#fcfcfc;
-    justify-content:center;
-    
-  }
-     #containerp>div
-     {
-       
-    background-color:white;
-   
-    
-    text-align:center;
-    margin: 10px;
-    padding: 20px;
-    
-    
-  }
-  #who:hover{
-    background-color:silver;
-    color:red;
-  }
-  
-  
-  
-  
-  
-     .background{
-       
-       background-color:skyblue;
-       text-align:center;
-       box-sizing: border-box;
-      padding-left: 15px;
-      padding-right: 15px;
-      padding:60px;
-      width: 100%;
-     }
-     .background>p{
-       color:white;
-       font-size:30px;
-     }
+
+   .one{
      
+     display: flex;
+  background-color:#CCEAFF;
+  /* justify-content:center; */
   
-   #benefits{
-       
-       display: flex;
-    background-color:Blue;
-    justify-content:center;
-    
-  }
-     #benefits>div
-     {
-       
-    background-color:white;
-   
-    font-size:20px;
-    padding:10px;
-     }
-     .help>h2{
-       color:red;
-       
-     }
-     .help>p
-     {
-       margin-top:5px;
-       text-align:center;
-       font-size:16px;
-       margin-bottom:70px;
-     }
+}
+   .one>div
+   {
      
+  /* background-color:white; */
+  font-size:20px;
+  padding:10px;
+   }
+  
+ #left{
+   width:60%;
+ }
      
+ /*two */
+
+ .two{
+     
+     display: flex;
+  background-color:#f9fafc;
+  /* justify-content:center; */
+  
+}
+   .two>div
+   {
+     
+  /* background-color:white; */
+  font-size:20px;
+  padding:10px;
+   }
+  
+ #left{
+   width:60%;
+ }
+     /*three*/
+
+      .three{
+     
+     display: flex;
+  background-color:#CCEAFF;
+  /* justify-content:center; */
+  
+}
+   .three>div
+   {
+     
+  /* background-color:white; */
+  font-size:20px;
+  padding:10px;
+   }
+  
+ #left{
+   width:60%;
+ }
+     
+ .footer {
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color:black ;
+   text-align: center;
+   color:gray;
+ }
