@@ -12,6 +12,7 @@ The purpose of this Landing portfolio is help people to know more about her,who 
 switch on your computer,log in to internet,open your terminal and create every folder you'll need then open it's html and css
 ##link
 https://github.com/tytyne/landing.git/
+hosted link:https://tytyne.github.io/landing/
 ## Technologies Used
 To create this application ,I used ubuntu terminal ,HTML and CSS 
 ## Support and contact details
